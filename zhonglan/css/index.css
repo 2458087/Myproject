@@ -1,0 +1,980 @@
+a:hover{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:focus{
+    outline: none;
+    text-decoration: none;
+}
+@media screen and (min-width:992px){
+	#header .container{
+		width: 940px;
+	}
+}
+@media screen and (min-width:768px){
+	#header .navbar{
+		padding: 15px 0px;
+	}
+}
+@media screen and (max-width:768px){
+	#header .nofixed{
+		position:static;
+	}
+}
+#header .navbar-default{
+    border: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid #0ba1e4;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 0;
+    z-index: 1000;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+} 
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    padding: 16px 25px 4px !important;
+}
+.navbar-default .navbar-nav .active a,.navbar-default .navbar-nav .active a:hover{
+    color: #0ba1e4;
+    background-color: rgba(255,255,255,0);
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #0ba1e4;
+}
+.navbar-default .navbar-nav>li .nav-line {
+    border-top: 1px solid #0ba1e4;
+    width: 18px;
+    margin: auto;
+}
+/* 我们的成绩开始 */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 300;
+}
+.index-row{
+    padding: 50px 0;
+}
+.index-row .main-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.line-big {
+    margin: 30px auto 26px;
+    border-width: 2px;
+    width: 80px;
+}
+.line{
+    border-top: 1px solid #0ba1e4;
+}
+/*大于992px以上固定宽度为970px md >= 992px */
+@media (min-width: 992px){
+    /*全部-最大宽度*/
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 768px){
+    body{
+        padding-top: 82px;/*顶部固定导航条的空间*/
+}
+}
+/*手机超小屏幕下的单独样式 xs < 768px */
+@media (max-width: 767px){
+    /*全部-导航*/
+    body{
+        padding-top: 0;/*移动端若固定顶部导航的话高度为52px*/
+        padding-bottom: 55px;
+    }
+    #header .navbar{/*移动端导航不固定顶部*/
+        position: relative !important;
+    }
+    #header .navbar{
+        padding-bottom: 0;
+    }
+}
+.index-row .our-data-items{
+    text-align: center;
+}
+.our-data .our-data-items .number-wrapper {
+    font-family: "Roboto", Arial, Tahoma, sans-serif;
+    font-size: 70px;
+    line-height: 1.5em;
+    color: #0ba1e4;
+}
+.our-data .our-data-items .title{
+    color: #919191;
+}
+.our-super{
+    background-color: #e1e1e1;
+}
+.our-super-items{
+    text-align: center;
+    background-color: #fafafa;
+    border: 1px solid #c1c1c1;
+    padding: 10px;
+}
+.our-super-items .glyphicon{
+    color: #0ba1e4;
+    font-size: 80px;
+    line-height: 1.5em;
+}
+.our-super-items:hover{
+    background-color: #0ba1e4;
+    color: #fff;
+}
+.our-super-items:hover .glyphicon{
+    color: #fff;
+}
+/* 我们的成绩结束 */
+/* 我们的服务开始 */
+@media (max-width: 767px){
+    .card-item{
+        width: 100% !important;
+    }
+}
+.card-box{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.our-server .card-item{
+    list-style: none;
+    width: 25%;
+    float: left;
+    border: 1px solid #c1c1c1;
+    transition: all 0.5s;
+}
+.our-server .card-box .card-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c1c1c1;
+}
+.our-server .card-box .card-title h4{
+    color: #0ba1e4;
+    font-weight: bold;
+}
+.our-server .card-box .card-title p{
+    line-height: 2em;
+}
+.our-server .card-box .card-content p{
+    line-height: 3em;
+}
+.our-server .card-box .card-content{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.card-area .card-item .card-content a{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-outline-blue{
+    color: #0ba1e4;
+    /* background: transparent; */
+    border-color: #0ba1e4;
+}
+.btn-outline-blue:hover{
+    color: #fff;
+    background-color: #0ba1e4;
+}
+.btn-outline-inverse{
+    color: #fff;
+    border-color: #fff;
+}
+.card-area .card-active{
+    color: #fff;
+    background-color: #0ba1e4;
+    border: 1px solid #0ba1e4;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: 0 0 20px 0 rgba(45,183,245,.5);
+}
+.card-area .card-active a:hover{
+    background-color: #fff;
+    color: #0ba1e4;
+}
+.card-area .card-active .card-title{
+    border-color: #ffffff;
+}
+.card-area .card-active .card-title h4{
+    color: #fff;
+}
+/* 我们的服务结束 */
+/* 我们的客户开始 */
+@media (max-width: 767px) {
+    .popover-content {
+        margin: 5% 0 0 !important;
+    }
+}
+.our-example{
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+.our-example-box{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.our-example-popover{
+    height: 190px;
+    padding-bottom: 0px;
+}
+.our-example-popover .popover{
+    height: 160px;
+    width: 100%;
+    max-width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    border: 1px solid #34a263;
+    box-shadow: none;
+    z-index: 10;
+    position: relative;
+    display: block;
+    float: left;
+    /*width: 260px;*/
+    margin: 0px;
+}
+.popover-title-touxiang {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: -26px;
+    margin: 0;
+    left: 0;
+    text-align: center;
+}
+.popover-title-touxiang img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.popover-content {
+    margin: 9% 0 0;
+    padding: 9px 13px;
+}
+.popover.top>.arrow {
+    border-top-color: #34a263;
+}
+.popover-content-tag{
+    position: absolute;
+    bottom: 12px;
+    font-size: 12px;
+    width: 90%;
+}
+.popover-content .bingzhong{
+    float: left;
+    background-color: #aaa;
+    color: #fff;
+    max-width: 50%;
+    padding: 0.5% 3.5%;
+}
+.position-icon{
+    float: left;
+    background: url(../img/position-icon.svg) no-repeat;
+    width: 10px;
+    height: 10px;
+    background-size: 10px 10px;
+    margin-top: 3px;
+    margin-right: 4px;
+}
+.position-address{
+    max-width: 50%;
+    float: right;
+    color: #aaa;
+}
+.ac-figure-icon {
+    margin-left: auto;
+    margin-right: auto;
+}
+.glly-icon{
+    background: url(../img/yhgl-icon.svg) no-repeat;
+    background-size: 70px 70px;
+    width: 70px;
+    height: 70px;
+}
+/* 我们的客户结束 */
+/* 美国签证资讯开始 */
+.our-news-item{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.media-left{
+    padding-right: 10px;
+}
+.media-left a{
+    width: 140px;
+    height: 110px;
+}
+.media-left img{
+    width: 100%;
+    height: 100%;
+}
+.our-news-item h4 {
+    color: #0ba1e4;
+    height: 19px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.news-list .our-news-item .media-body .our-news-li a{
+    float: right;
+}
+.our-news-item h4:hover{
+    font-weight: bold;
+}
+.media-body .media-title{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.media-body p{
+    color: #999;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+} 
+.our-news-item span{
+    color: #999;
+}
+.index-row .container .row .our-news-li a{
+   float: right;
+}
+.our-news-item a{
+    color: #999;
+} 
+a:hover{
+    color: #f93;
+}
+.our-news-more{
+    text-align: center;
+}
+.our-news-li b{
+    float: right;
+    color: gray;
+}
+.our-news-li .sm-icon{
+    width: 13px;
+    height: 10px;
+    float: right;
+    background: url(../img/glob-pic.png) no-repeat -132px -58px;
+    margin: 4px;
+}
+/* 美国签证资讯结束 */
+/* 我们的客户开始 */
+.our-client{
+    background-color: #e1e1e1;
+}
+.our-client .our-client-logo{
+    border: 1px solid #c1c1c1;
+    margin: 20px auto;
+}
+.our-client-logo img{
+    filter: grayscale(100%);
+}
+.our-client-item .our-client-logo:hover{
+    background-color: #fafafa;
+    border: 1px solid #0ba1e4;
+}
+.our-client-logo:hover img{
+    filter: none;
+}
+/* 我们的客户结束 */
+/* 立即资讯开始 */
+.contact-banner{
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to bottom,#0076d1,#5db8ff);
+}
+.contact-banner .waves{
+    position: absolute;
+    height: 100%;
+}
+.contact-banner-box{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.contact-banner-box h2{
+    display: block;
+    max-width: 10em;
+    line-height: 2em;
+    border-bottom: 2px solid #fff;
+    color: #f5f5f5;
+    margin: 0 auto;
+}
+.contact-banner-box h4{
+    color: #f1f1f1;
+}
+.contact-banner-box .btn{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.contact-banner-box a:hover{
+    background-color: #fff;
+    color: #0ba1e4;
+}
+/* 立即资讯结束 */
+/* 页脚开始 */
+@media (min-width: 992px){
+    /*全部-最大宽度*/
+    .container {
+        width: 970px;
+    }
+    /*全部-最大宽度*/
+    /*全部-页脚*/
+    #footer .footer-item-last{
+        border-right: 2px solid #c1c1c1;
+    }
+}
+#footer{
+    background-color: #363636;
+}
+#footer .footer-item{
+    height: 160px;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 1em;
+    border-left: 2px solid #c1c1c1;
+    color: #fff;
+}
+#footer .footer-item ul{
+    list-style: none;
+    margin-top: 25px;
+    padding: 0;
+}
+#footer .footer-item ul li a{
+    color: #fff;
+    line-height: 2.5em;
+}
+.footer-wechat .img-responsive{
+    max-width: 132px;
+}
+#footer .footer-item p{
+    text-align: center;
+    line-height: 2.5em;
+}
+.footer-item h2{
+    margin: 0;
+    line-height: 52px;
+}
+.footer-item h2 img{
+    width: 40px;
+    height: 40px;
+}
+#copyright{
+    background-color: #666;
+}
+.copyright-bottom{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+#copyright p{
+    color: #fafafa;
+    margin: 10px;
+    line-height: 22px;
+}
+#copyright .copyright-bottom a{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+#copyright p a{
+    color: #fafafa;
+}
+/* 页脚结束 */
+/* 侧导航栏 */
+#clan-slider{
+    position: fixed;
+    bottom: 30%;
+    right: 0.1%;
+    z-index: 99999;
+}
+#clan-slider ul li{
+    display: block;
+    list-style: none;
+    margin-top: 2px;
+    position: relative;
+}
+#clan-slider ul li a{
+    display: block;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    border: 1px solid #0ba1e4;
+    background-color: #f5f5f5;
+    background-image: url(../img/clan-slider.png);
+    background-repeat: no-repeat;
+    background-position: 0px -92px;
+}
+.clan-slider-tips{
+    position: absolute;
+    top: 0px;
+    right: 48px;
+    display: none;
+    height: 48px;
+    padding-left: 10px;
+    padding-right: 2px;
+    white-space: nowrap;
+    border: 1px solid #0ba1e4;
+    background-color: #0ba1e4;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    color: #fff;
+}
+#clan-slider #slider-chat:hover{
+    background-color: #0ba1e4;
+    background-position: -46px -92px;
+}
+#clan-slider #slider-qq{
+    background-position: 0px -138px;
+}
+#clan-slider #slider-qq:hover{
+    background-color: #0ba1e4;
+    background-position: -46px -138px;
+}
+#clan-slider #slider-phone{
+    background-position: 0px -184px;
+}
+#clan-slider #slider-phone:hover{
+    background-color: #0ba1e4;
+    background-position: -46px -184px;
+}
+#clan-slider #slider-wechat{
+    background-position: 0px -230px;
+}
+#clan-slider #slider-wechat:hover{
+    background-color: #0ba1e4;
+    background-position: -46px -230px;
+}
+#clan-slider #slider-top{
+    background-position: 0px 0px;
+}
+.clan-slider-tips{
+    display: none;
+}
+.clan-slider-tips-wechat{
+    display: none;
+}
+.clan-slider-tips-wechat img{
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    width: 196px;
+    height: 196px;
+}
+
+/* 侧导航栏结束 */
+/* 为什么选择我们 */
+.why-choose{
+    padding: 50px 0;
+}
+.why-choose h2{
+    margin-top: 60px;
+    color: #0ba1e4;
+}
+.urgent-odd{
+    background-color: #f8fbff;
+}
+.urgent-event{
+    text-align: right;
+    background-color: #fff;
+}
+.why-choose .line-big{
+    margin: 0 0 10px 0;
+}
+.urgent-event p{
+    float: right;
+}
+.why-choose .row p{
+    font-size: 20px;
+    color: #919191;
+    font-weight: 300;
+}
+/* 为什么选择我们结束 */
+/* 美国基本签证流程 */
+.urgent-row{
+    padding: 50px 0;
+}
+.urgent-step{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #0ba1e4;
+}
+.urgent-step h3{
+    color: #fff;
+    line-height: 1.5em;
+    margin: 0;
+}
+/* 美国基本签证流程结束 */
+/* 美国签证加急流程 */
+.urgent-chat{
+    background: url(../img/urgent_chat.jpg) no-repeat center top;
+}
+.urgent-chat .line-big{
+    margin: 0 0 10px 0;
+}
+.urgent-chat p{
+    font-size: 20px;
+    color: #919191;
+}
+.urgent-chat ol{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.urgent-chat ol li{
+    font-size: 18px;
+    line-height: 2em;
+}
+/* 美国签证加急流程结束 */
+/* 签证资讯开始 */
+.breadcrumb{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.news-list .our-news-item{
+    margin: 0;
+    border-bottom: 1px solid #c1c1c1;
+}
+.article-footer{
+    text-align: center;
+}
+#sidebar{
+    overflow: hidden;
+}
+#sidebar-content h4{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #c1c1c1;
+}
+#sidebar-content h4:first-child{
+    padding-top: 0;
+}
+.sidebar-contact a{
+    display: block;
+    color: #f93;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    padding-left: 32px;
+    margin: 5px 0;
+    background: url(../img/sidebar-bg.png) no-repeat;
+}
+.sidebar-contact .sidebar-qq{
+    background-position: 0px -32px;
+}
+.sidebar-contact .sidebar-chat{
+    background-position: 0px -64px;
+}
+#sidebar-content ul{
+    margin-top: 15px;
+    list-style: none;
+    padding-left: 0;
+}
+#sidebar .sidebar-right ul li a{
+    color: #333;
+    display: block;
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 1em;
+}
+#sidebar-content ul li a:hover{
+    color: #0ba1e4;
+}
+#right-line {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 25%;
+    height: 100%;
+    border-left: 1px solid #c1c1c1;
+}
+/* 签证资讯结束 */
+/* 签证服务开始 */
+.service-item dd{
+    height: 164px;
+    padding-left: 144px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.service-item h3{
+    margin: 0;
+    border-bottom: 1px dashed #c1c1c1;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+}
+.service-item a{
+    color: #333;
+}
+.service-item a:hover{
+    color: #337ab7;
+}
+.service-item .liucheng{
+    background: url(../img/liucheng.png) no-repeat;
+}
+.service-item .zhoubian{
+    background: url(../img/zhoubian.png) no-repeat;
+}
+.service-item .quancheng{
+    background: url(../img/quancheng.png) no-repeat;
+}
+.service-item p{
+    margin: 0;
+    line-height: 2em;
+}
+.service-item span{
+    font-weight: normal;
+    margin-right: 20px;
+    display: inline-block;
+}
+.service-item .star{
+    font-style: normal;
+    color: #f93;
+}
+.service-item i{
+    color: #ccc;
+}
+.service-item .btn{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #f93;
+    border-color: #f93;
+}
+.service-item .btn:hover{
+    color: #fff;
+    background-color: #f93;
+}
+/* 签证服务结束 */
+/* 下载资料开始 */
+.download-item{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c1c1c1;
+}
+.download-item .media-left{
+    padding-right: 20px;
+}
+.download-item .media-left a img{
+    width: 42px;
+    height: 48px;
+}
+.download-item .media-body{
+    position: relative;
+}
+.download-item .media-body a{
+    color: #333;
+}
+.download-item .media-body h4{
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.download-item .media-body a:hover{
+    color: #337ab7;
+}
+.media-body span{
+    margin-right: 20px;
+}
+.media-body em{
+    font-style: normal;
+    color: #444;
+}
+.media-body .media-down-title{
+    color: #666;
+    font-size: 12px;
+    line-height: 2em;
+}
+.download-item .media-body .btn{
+    color: #0ba1e4;
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
+}
+.download-item .media-body .btn:hover{
+    color: #fff;
+    background-color: #0ba1e4;
+}
+/* 下载资料结束 */
+/* 签证指南 */
+#left-line{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    height: 100%;
+    border-left: 1px solid #c1c1c1;
+}
+#sidebar-content ul li{
+    padding-left: 1em;
+}
+#sidebar-content ul li a{
+    color: #333;
+    display: block;
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 1em;
+}
+#sidebar-content>ul>li>a{
+    color: #0ba1e4;
+}
+#sidebar-content ul{
+    margin: 0;
+    padding: 0;
+}
+#sidebar-content .left-active{
+    background-color: #D7E3EC;
+    color: #0ba1e4;
+}
+#sidebar-content .left-active-sub{
+    color: #0ba1e4;
+}
+.article-title{
+    border-bottom: 1px solid #c1c1c1;
+}
+.article-title small{
+    float: right;
+    font-size: 14px;
+    margin-top: 18px;
+}
+.article-content h3{
+    line-height: 1.5em;
+    padding-top: 10px;
+    color: #0ba1e4;
+    border-top: 1px solid #c1c1c1;
+}
+.article-content h3:first-child{
+    padding: 0;
+    border: 0;
+}
+.article-content p {
+    text-indent: 2em;
+    line-height: 2em;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* 签证指南结束 */
+/* 弹出框 */
+ins{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+}
+.pop{
+    width: 240px;
+    position: fixed;
+    left: 1px;
+    bottom: 1px;
+    background-color: #EDEDED;
+}
+#pop-box{
+    display: none;
+}
+.pop .pop-top{
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    background-color: #00aef3;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.pop-top-title{
+    color: #fff;
+    float: left;
+    margin-left: 12px;
+}
+.pop-text{
+    zoom: 1;
+    padding: 12px 0;
+    border-bottom: 1px solid #d5d5d5;
+}
+.pop-text p{
+    color: #666;
+    margin: 0px 8px 0px 8px;
+}
+.pop-top .pop-icon{
+    float: right;
+    width: 34px;
+    height: 30px;
+    background: url(../img/nodeMin.png) no-repeat;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.pop-content #pop-area{
+    resize: none;
+    width: 222px;
+    height: 79px;
+    border: 1px solid #d5d5d5;
+    margin: 10px 0 0 10px;
+}
+#pop-area,.pop-input{
+    font-size: 12px;
+}
+.pop-little-icon{
+    height: 32px;
+    width: 221px;
+    line-height: 30px;
+    margin-left: 10px;
+    border: 1px solid #d5d5d5;
+    position: relative;
+    background-color: #fff;
+    margin-top: 5px;
+}
+.pop-name-icon{
+    background: url(../img/user.png) no-repeat 9px center;
+}
+.pop-node-icon{
+    width: 35px;
+    height: 30px;
+    border-right: 1px solid #fff;
+    display: inline-block;
+    background-color: #fff;
+    vertical-align: top;
+}
+.pop-input{
+    width: 140px;
+    height: 30px;
+    border: none;
+    line-height: 30px;
+    margin: 0;
+    display: inline-block;
+}
+.pop-phone-icon{
+    background: url(../img/nodephone.png) no-repeat 9px center;
+}
+.pop-email-icon{
+    background: url(../img/nodemail.png) no-repeat 9px center;
+}
+.pop-address-input{
+    background: url(../img/nodelocation.png) no-repeat 9px center;
+}
+.pop-btn{
+    width: 202px;
+    margin: 15px 10px 10px;
+}
+.pop-butt{
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #00aef3;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+}
+/* 弹出框结束 */
