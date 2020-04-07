@@ -1,0 +1,71 @@
+.footer{
+    width: 100%;
+    height: 2.5rem;
+    border-top: 1px solid #cccccc;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+.footer ul{
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+}
+.footer ul li{
+    font-size: 0.6rem;
+    height: 1.4rem;
+    width: 1.4rem;
+    margin: 0px auto;
+    background-size: 16.05rem;
+    background-repeat: no-repeat;
+}
+
+.footer ul li.text{
+    font-size: 0.6rem;
+    height: 1.4rem;
+    width: 2rem;
+}
+.footer ul li.icon{
+    background-image: url("../images/footer/footer-icon.png");  
+}
+.footer ul li.home{    
+    background-position: 0 0;
+}
+.footer ul li.home-active{
+    background-position: 0 -1.4rem;
+}
+.footer ul li.category{
+    background-position: -1.4rem 0;
+}
+.footer ul li.category-active{
+    background-position: -1.4rem -1.4rem;
+}
+.footer ul li.search{
+    background-position: -7rem 0;
+}
+.footer ul li.search-active{
+    background-position: -7rem -1.4rem;
+}
+.footer ul li.cart{
+    background-position: -2.8rem 0;
+}
+.footer ul li.cart-active{
+    background-position: -2.8rem -1.4rem;
+}
+.footer ul li.mine{
+    background-position: -4.2rem 0;
+}
+.footer ul li.mine-active{
+    background-position: -4.2rem -1.4rem;
+}
+.footer ul li.text-active{
+    font-size: 0.6rem;
+    height: 1.4rem;
+    width: 2rem;
+    color: #ff495e;
+}
